@@ -1,0 +1,126 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Table with image and title */
+table:first-of-type {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table:first-of-type img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+table:first-of-type td {
+    vertical-align: middle;
+    padding: 10px 20px;
+}
+
+table:first-of-type h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+/* Underline style for headings */
+h1 u, h3 {
+    color: #2980b9;
+}
+
+/* Lists styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #eaf4fc;
+}
+
+ul li a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Skills table */
+table[border="3"] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table[border="3"] caption h1 {
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    color: #2980b9;
+}
+
+table[border="3"] thead th {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+table[border="3"] tbody td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+/* Star rating styling */
+table[border="3"] tbody td:nth-child(2) {
+    font-size: 1.2rem;
+    color: #f1c40f; /* gold color for stars */
+}
+
+/* Links at bottom */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1c5980;
+}
